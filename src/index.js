@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'jquery'
+import 'bootstrap/dist/js/bootstrap'
+import 'bootstrap/dist/css/bootstrap.css'
 import './index.css';
+import { NavBar } from './Nav';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import "font-awesome/css/font-awesome.css"
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+
+var element = <div>hello world</div>
+ReactDOM.render(<App />,
   document.getElementById('root')
 );
 
